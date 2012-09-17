@@ -1,4 +1,10 @@
 package Text::FileTree;
+# Copyright (c) 2012 - Olof Johansson <olof@cpan.org>
+# All rights reserved.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the same terms as Perl itself.
+
 our $VERSION = 0.1;
 
 use warnings FATAL => 'all';
