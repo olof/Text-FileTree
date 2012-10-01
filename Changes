@@ -1,3 +1,8 @@
+Text::FileTree 0.2, 2012-10-01
+
+ * Solve unit test failures on exotic platforms like MSWin32
+ * Solve unit test failures on ancient Perl version (pre 5.10)
+
 Text::FileTree 0.1, 2012-09-22
 
  * Initial release
