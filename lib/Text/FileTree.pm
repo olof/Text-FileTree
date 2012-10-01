@@ -97,7 +97,7 @@ sub __parse_file {
 	my $prnt = $self->{data};
 
 	for($fs->splitdir($file)) {
-		$prnt = $prnt->{$_} = $prnt->{$_} // {};
+		$prnt = $prnt->{$_} = defined $prnt->{$_} ? $prnt->{$_} : {};
 	}
 }
 
