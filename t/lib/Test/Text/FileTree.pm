@@ -30,10 +30,13 @@ sub _fh_pipe {
 	my $cmd = shift;
 	my $ref = shift;
 
-	open my $fh, '-|', @$cmd or
-		die "Could not open pipe: $!";
+	SKIP: {
+		skip "pipe open is not available on $^O", 1 if $^O eq 'MSWin32';
+		open my $fh, '-|', @$cmd or
+			die "Could not open pipe: $!";
 
-	is_deeply($ft->from_fh($fh), $ref, 'from_fh: pipe');
+		is_deeply($ft->from_fh($fh), $ref, 'from_fh: pipe');
+	}
 }
 
 sub run_tests {
