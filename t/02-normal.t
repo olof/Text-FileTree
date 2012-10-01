@@ -25,4 +25,4 @@ my $ref = {
 	},
 };
 
-run_tests($reffile, $ref);
+run_tests($reffile, $ref, [ platform => 'Unix' ]);
