@@ -14,6 +14,7 @@ WriteMakefile (
 	PREREQ_PM => {
 		'Test::More' => 0,
 		'File::Slurp' => 0,
+		'Module::Load' => 0,
 	},
 );
 
