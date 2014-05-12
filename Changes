@@ -1,3 +1,9 @@
+Text::FileTree 0.22, 2014-05-12
+
+ * Add git repo info to META.*
+
+-- Olof Johansson <olof@cpan.org>
+
 Text::FileTree 0.21, 2012-10-02
 
  * Document Module::Loader as dependency

@@ -5,7 +5,7 @@ package Text::FileTree;
 # This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 
-our $VERSION = 0.21;
+our $VERSION = 0.22;
 
 use warnings FATAL => 'all';
 use strict;
