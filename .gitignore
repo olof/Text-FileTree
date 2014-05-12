@@ -1,4 +1,6 @@
-MYMETA.yml
+MYMETA.*
+*.tar.gz
+*.swp
 Makefile
 blib/
 cover_db/
