@@ -11,6 +11,7 @@ WriteMakefile (
 	LICENSE => 'perl',
 	ABSTRACT_FROM => 'lib/Text/FileTree.pm',
 	VERSION_FROM => 'lib/Text/FileTree.pm',
+	MIN_PERL_VERSION => '5.8.0',
 	SIGN => 1,
 
 	META_MERGE => {
@@ -30,4 +31,3 @@ WriteMakefile (
 		'Module::Load' => 0,
 	},
 );
-
