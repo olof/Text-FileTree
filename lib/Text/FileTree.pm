@@ -135,7 +135,7 @@ development version is available on github:
 
 =over
 
-=item * L<http://metacpan.org/Text::FileTree>
+=item * L<http://metacpan.org/pod/Text::FileTree>
 
 =item * L<http://github.com/olof/Text-FileTree>
 
