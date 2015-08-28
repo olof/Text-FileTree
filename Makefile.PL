@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
-my $vcs = 'github.com/olof/Text-FileTree';
+my $vcs = 'https://github.com/olof/Text-FileTree';
 
 WriteMakefile (
 	NAME => 'Text::FileTree',
@@ -19,8 +19,11 @@ WriteMakefile (
 		resources => {
 			repository => {
 				type => 'git',
-				url => "https://$vcs.git",
-				web => "https://$vcs",
+				url => "$vcs.git",
+				web => "$vcs",
+			},
+			bugtracker  => {
+				web    => "$vcs/issues",
 			},
 		},
 	},
