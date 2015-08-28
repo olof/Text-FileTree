@@ -118,7 +118,7 @@ sub from_file {
 Load the file list from a filehandle (or a filename). Examples:
 
  open(my $pipe, '-|', 'find', '/');
- Text::FileTree::from_fh($pipe);
+ Text::FileTree->new->from_fh($pipe);
 
 =cut
 
