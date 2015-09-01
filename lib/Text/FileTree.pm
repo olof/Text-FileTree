@@ -141,8 +141,17 @@ development version is available on github:
 
 =back
 
-Bugs can be reported on either rt.cpan.org, as an issue on github
-or as an e-mail to me. The primary issue tracker is github.
+We use Github for issue tracking and pull requests.
+
+=over
+
+=item * L<http://github.com/olof/Text-FileTree/issues>
+
+=back
+
+If you don't have an account on Github (or for other reason don't
+want to use Github), we are ok with bugs filed on rt.cpan.org as
+well.
 
 =head1 KNOWN BUGS AND LIMITATIONS
 
