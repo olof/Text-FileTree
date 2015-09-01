@@ -135,9 +135,9 @@ development version is available on github:
 
 =over
 
-=item * L<http://metacpan.org/pod/Text::FileTree>
+=item * L<https://metacpan.org/pod/Text::FileTree>
 
-=item * L<http://github.com/olof/Text-FileTree>
+=item * L<https://github.com/olof/Text-FileTree>
 
 =back
 
@@ -145,7 +145,7 @@ We use Github for issue tracking and pull requests.
 
 =over
 
-=item * L<http://github.com/olof/Text-FileTree/issues>
+=item * L<https://github.com/olof/Text-FileTree/issues>
 
 =back
 
