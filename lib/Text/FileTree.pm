@@ -5,10 +5,10 @@ package Text::FileTree;
 # This program is free software; you can redistribute it and/or
 # modify it under the same terms as Perl itself.
 
-our $VERSION = 0.22;
-
 use warnings FATAL => 'all';
 use strict;
+our $VERSION = 0.22;
+
 use Carp;
 use File::Slurp;
 use File::Spec;
@@ -64,7 +64,7 @@ sub new {
 	}, $class;
 
 	if($self->{platform}) {
-		require "File/Spec/$self->{platform}.pm";
+		load "File::Spec::$self->{platform}";
 		$self->{fs} = "File::Spec::$self->{platform}";
 	}
 
