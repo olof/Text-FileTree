@@ -1,3 +1,13 @@
+Text::FileTree 0.23, 2015-09-04
+
+ * Bump perl requirement to 5.8. (Thanks to cpantesters report)
+ * Fix documentation on how to use from_fh. Patch by Zoffix Znet.
+ * Add bugtracker info to META. Patch by Zoffix Znet.
+ * Clarify bug tracking preferences in POD.
+ * Add perlcritic test suite.
+
+-- Olof Johansson <olof@cpan.org>
+
 Text::FileTree 0.22, 2014-05-12
 
  * Add git repo info to META.*
