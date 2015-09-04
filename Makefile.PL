@@ -28,6 +28,17 @@ WriteMakefile (
 		},
 	},
 
+	BUILD_REQUIRES => {
+		# This is actually a test requirement, but I don't want
+		# to bump the EU::MM dep all the way to 6.64 just yet.
+		'Test::Perl::Critic' => 0,
+
+		# This is for uh, documentation. EU::MM won't be able
+		# to understand this if you aren't using 6.56 or later,
+		# since that's when BUILD_REQUIRES was introduced.
+		'ExtUtils::MakeMaker' => 6.56,
+	},
+
 	PREREQ_PM => {
 		'File::Slurp' => 0,
 		'Module::Load' => 0,
