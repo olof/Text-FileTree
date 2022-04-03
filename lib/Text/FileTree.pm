@@ -80,6 +80,11 @@ sub new {
 sub parse {
 	my $self = shift;
 
+	if(ref $_[0] eq 'ARRAY') {
+		my $ref = shift @_;
+		push(@_, @{ $ref });
+	}
+
 	for my $str (@_) {
 		$self->__parse_file($_) for split /\n/, $str;
 	}
